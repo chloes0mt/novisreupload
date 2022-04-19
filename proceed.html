@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatibile" content="ie=edge">
+	<title>NOVIS</title>
+</head>
+<body>
+	<br>
+		<h1>WELCOME TO THE MOUSE ROOM!!!</h1>
+		
+		<a href="novis.html"><button style="cursor:pointer;height:20px;width:150px;">###########</button></a>
+		<a href="proceed.html"><button style="cursor:pointer;background-color:green;" onclick="clicked();">###########</button></a>
+</body>
+<style>
+	body {
+		padding: 0;
+		margin: 0;
+		background-color: gray;
+		color: white;
+		font-size: 50px;
+	}
+</style>
+
+<script>
+	function clicked() {
+		prompt("Secret Required:");
+		alert("Incorrect.");
+		alert("Click here for a hint");
+		for (var i = 0; i < 101; i++) {
+			alert("Click here for a hint.");
+		}
+		alert("Well done. You may now exit.");
+	}
+</script>
+
+</html>
